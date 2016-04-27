@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width">
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+<title>MiWebApp pagina2</title>
+
+</head>
+
+<body>
+
+	<div data-role="page" id="pagina1">
+		<div data-role="header" data-theme="b"><h1>Mi WebApp (header)</h1></div>
+		<div data-role="content">
+			<p>Este es el contenido en otra pagina html externa e independiente.</p>
+			<p>
+				<!-- <div data-role="controlgroup" data-type="horizontal"> -->
+				<a href="#pagina2" data-role="button" data-inline="true" data-icon="home" data-theme="b">Boton 1</a>
+				<a href="" data-role="button" data-inline="true" data-icon="delete" >Boton 2</a>
+				<a href="" data-role="button" data-inline="true" data-icon="arrow-l" data-iconpos="right">Boton 3 </a>
+<!-- </div> -->
+			</p>
+
+
+
+		</div>
+		<div data-role="footer" data-theme="b"><h2>Este es el footer.</h2></div>
+	</div>
+
+<!-- Aqui empieza otra pagina- vista de Jquery -->
+	<div data-role="page" id="pagina2">
+		<div data-role="header" data-theme="b"><h1>Mi WebApp (header)</h1></div>
+		<div data-role="content">
+			<p>Este es el contenido de la pagina 2.</p>
+			<p>
+				<div data-role="controlgroup" data-type="horizontal">
+				<a href="" data-role="button" data-inline="true" data-icon="home" data-theme="b">Boton 1</a>
+				<a href="" data-role="button" data-inline="true" data-icon="delete" >Boton 2</a>
+				<a href="" data-role="button" data-inline="true" data-icon="arrow-l" data-iconpos="right">Boton 3 </a>
+</div>
+			</p>
+
+
+
+		</div>
+		<div data-role="footer" data-theme="b"><h2>Este es el footer.</h2></div>
+	</div>
+
+</body>
+
+
+</html>
